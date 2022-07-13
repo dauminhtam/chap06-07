@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preview of example</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label>Name:
+            <input type="text" name="name">
+        </label><br/>
+        <legen>Email:
+            <input type="text" name="email">
+        </legen>
+    </fieldset>
+    <br/>
+    <fieldset>
+        <legend>Your Review:</legend>
+        <label>
+            <p>How did you hear about us?
+            <select name="service">
+                <option value="google">Google</option>
+                <option value="microsoft">Microsoft</option>
+                <option value="amazon">Amazon</option>
+                <option value="chrome">Chrome</option>
+            </select></p>
+        </label>
+        <label>
+            <p>Would you visit again?</p>
+                <input type="radio" name="genre"/><b>Yes</b>
+                <input type="radio" name="genre"/><b>No</b>
+                <input type="radio" name="genre"/><b>Maybe</b>
+        </label>
+        <br/><br/>
+        <label >Comments:
+            <textarea name="comment" id="comments...." cols="50" rows="4"></textarea>
+        </label>
+        <br/><br/>
+        <label>
+            <p>
+                <input type="checkbox" name="service" checked="checked">Sign me up for email update
+                <br/>
+                <input type="submit" name="submit" value="Submit review" />
+            </p>
+        </label>
+
+    </fieldset>
+</form>
+</body>
+</html>
